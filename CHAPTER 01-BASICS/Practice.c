@@ -1,10 +1,10 @@
 # include<stdio.h>
-//area of square
+//area of circle
 int main(){
-    int side;
-    printf("Enter the Side ");
-    scanf("%d", &side);
+    float radius;
+    printf("Enter the Radius ");
+    scanf("%f", &radius);
 
-    printf("Area of square is : %d \n", side * side);
+    printf("Area of cicle is : %f \n", radius * radius * 3.14);
     return 0;
 }
